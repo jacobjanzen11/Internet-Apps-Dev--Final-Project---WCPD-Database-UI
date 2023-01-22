@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "utf-8">
+        <Title>WCPD Client Database User Login</Title>
+        <script src = "../js/form_validation.js"></script>
+        <link rel="stylesheet" href="../css/login_form.css">
+        <link rel="main page" href="../html/database_UI.html">
+    </head>
+
+    <body id="form">
+        <header>
+            <nav id="header">
+                <ul>
+                    <li id="logo"><img src="../img/NewLogo.png"></li>
+                    <li id="Help"><a href="#Help">Help</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <div>
+                <form id="loginForm" action="../html/database_UI.html" method="post">
+                    <label for="username"></label>
+                    <input type="text" id="username" name="username" value="Username" onfocus="this.value=''" style="width: 200px">
+                    <br>
+                    <label for="password"></label>
+                    <input type="password" id="password" name="pasword" value="Password" onfocus="this.value=''" style="width: 200px">
+                    <br>
+                    <input type="submit" value="LOG IN">
+                    <br><br>
+                    <p>OR</p>
+                    <button class="registerButton" id="registerUser">REGISTER NEW USER</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

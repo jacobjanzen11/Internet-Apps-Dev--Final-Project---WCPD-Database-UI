@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "utf-8">
+        <Title>WCPD Client Database</Title>
+        <link rel="stylesheet" href="../css/main_page.css">
+        <script src="../js/add-delete.js"></script>
+    </head>
+
+    <body id="form">
+        <header>
+            <nav id="header">
+                <ul>
+                    <li id="logo"><img src="../img/NewLogo.png"></li>
+                    <li id="Help"><a href="#Help">Help</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main-section">
+            <div class="search-container"> 
+                <label for="Search"></label>
+                <input class="search-box" type="text" id="Search" value="Search Database" onfocus="this.value=''">
+                <button class="add-button" onclick="goToForm()">Add/Delete Client</button>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#loginForm {
+    background-color: #35465e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+#loginForm label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#loginForm input[type="text"], #loginForm input[type="password"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #35465e;
+    color: white;
+}
+
+#loginForm input[type="submit"] {
+    width: 10%;
+    background-color: white;
+    color: #35465e;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.registerButton {
+    width: 20%;
+    background-color: white;
+    color: #35465e;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#form {
+    background-color:#35465e;
+
+}
+
+#div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+}
+
+#header ul {
+    display: flex;
+    width: 100%;
+}
+
+#header li {
+    list-style-type: none;
+}
+
+#Help {
+    margin-left: auto;
+    width: auto;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(118, 114, 114);
+}
